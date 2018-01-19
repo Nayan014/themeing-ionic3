@@ -15,6 +15,8 @@ $app-direction: ltr;
 @import "ionic.globals";
 
 
+
+
 // Shared Variables
 // --------------------------------------------------
 // To customize the look and feel of this app, you can override
@@ -34,11 +36,11 @@ $app-direction: ltr;
 // The "primary" color is the only required color in the map.
 
 $colors: (
-  primary:    #488aff,
-  secondary:  #32db64,
-  danger:     #f53d3d,
-  light:      #f4f4f4,
-  dark:       #222
+  primary: #488aff,
+  secondary: #32db64,
+  danger: #f53d3d,
+  light: #f4f4f4,
+  dark: #222,
 );
 
 
@@ -86,3 +88,8 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+
+
+//Custome Theme
+@import "theme.light";
+@import "theme.dark"
